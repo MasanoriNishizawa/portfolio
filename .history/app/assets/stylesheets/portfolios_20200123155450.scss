@@ -1,0 +1,75 @@
+.wrapper{
+  font-family: 'Cormorant Garamond', serif;
+  color: #231815;
+  background-color: #fff;
+  font-size: 18px;
+  box-sizing: border-box;
+  .menubar{
+    background-color: #fff;
+    width: 100vw;
+    position: fixed;
+    &__nav{
+      &__contents{
+        padding: 10px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        &__menu{
+          a{
+            display: block;
+            font-size: 12px;
+            margin: 0 10px;
+            color: #696969;
+          }
+        }
+      }
+    }
+  }
+  .header{
+    background-color: #f0f8ff;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__title{
+      &__name{
+        font-family: 'Amatic SC', cursive;
+        font-size: 60px;
+      }
+      &__sub{
+        font-size: 30px;
+        color: #696969;
+        text-align: center;
+      }
+    }
+  }
+  .inner{
+    margin: 0 30px;
+    .about{
+      text-align: center;
+      &__top{
+        color: #696969;
+        line-height: 50px;
+        text-align: center;
+        &__name{
+        }
+      }
+      &__contents{
+        &__inner{
+          margin: 20px 0;
+          &__photo{
+            img{
+              border-radius: 50%;
+              height: 120px;
+              width: 120px;
+            }
+          }
+          &__profile{
+          }
+        }
+      }
+    }
+  }
+}
+
+

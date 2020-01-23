@@ -1,0 +1,19 @@
+.wrapper{
+  font-family: 'Hiragino Sans','ヒラギノ角ゴシック','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic''ＭＳ ゴシック','Helvetica Neue','Helvetica','Arial',sans-serif;
+  .header{
+    border: 1px red solid;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__title{
+      text-align: center;
+      &__top{
+        font-size: 30px;
+      }
+      &__main{
+
+      }
+    }
+  }
+}

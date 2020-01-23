@@ -1,0 +1,56 @@
+$color: #696969;
+$border: #e6e6fa;
+.wrapper{
+  font-family: 'Hiragino Sans','ヒラギノ角ゴシック','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic''ＭＳ ゴシック','Helvetica Neue','Helvetica','Arial',sans-serif;
+  color: $color;
+  background-color: #b0c4de;
+  .header{
+    background:radial-gradient(#f8f8ff 30%, #b0c4de 70%);
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__title{
+      text-align: center;
+      &__top{
+        font-size: 30px;
+      }
+      &__main{
+        font-size: 60px;
+      }
+    }
+  }
+  .menubar{
+    &__contents{
+      display: flex;
+      justify-content: center;
+      border-top : solid 2px $border;
+      &__menu{
+        margin: 10px 40px;
+        a{
+        color: $color;
+        }
+      }
+    }
+  }
+  .about{
+    border-top: solid 2px $border;
+    &__top{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      &__name{
+
+      }
+    }
+    &__contents{
+      &__photo{
+
+      }
+      &__profile{
+
+      }
+    }
+  }
+}

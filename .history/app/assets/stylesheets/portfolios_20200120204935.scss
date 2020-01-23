@@ -1,0 +1,22 @@
+.wrapper{
+  font-family: 'Hiragino Sans','ヒラギノ角ゴシック','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic''ＭＳ ゴシック','Helvetica Neue','Helvetica','Arial',sans-serif;
+  color: #696969;
+  // background-color: #b0c4de;
+  .header{
+    background-image: url("public/82229054-サファイアのブルーと明るい青の背景を抽象化、高級質感の正方形、copyspace-と重複するパターンがランダムにブロック.jpg");
+    border: 1px red solid;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__title{
+      text-align: center;
+      &__top{
+        font-size: 30px;
+      }
+      &__main{
+        font-size: 60px;
+      }
+    }
+  }
+}

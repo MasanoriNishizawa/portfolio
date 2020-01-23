@@ -1,0 +1,43 @@
+.wrapper{
+  font-family: 'Hiragino Sans','ヒラギノ角ゴシック','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic''ＭＳ ゴシック','Helvetica Neue','Helvetica','Arial',sans-serif;
+  color: #231815;
+  background-color: #f0f8ff;
+  font-size: 18px;
+  .header{
+    height: 780px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__title{
+      &__top{
+      }
+      &__main{
+      }
+    }
+  }
+  .menubar{
+    &__contents{
+      &__menu{
+        a{
+        }
+      }
+    }
+  }
+  .about{
+    &__top{
+  
+      &__name{
+      }
+    }
+    &__contents{
+      &__inner{
+        &__photo{
+          img{
+          }
+        }
+        &__profile{
+        }
+      }
+    }
+  }
+}

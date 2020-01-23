@@ -1,0 +1,108 @@
+.wrapper{
+  font-family: 'Cormorant Garamond', serif;
+  color: #231815;
+  // background-color: #f0f8ff;
+  background-color: #f8f8ff;
+  font-size: 18px;
+  box-sizing: border-box;
+  .inner{
+    margin: 0 30px;
+    .menubar{
+      &__nav{
+        &__contents{
+          padding: 10px 0;
+          display: flex;
+          align-items: center;
+          justify-content: start;
+          &__menu{
+            a{
+              display: block;
+              font-size: 12px;
+              margin: 0 10px;
+              color: #696969;
+            }
+          }
+        }
+      }
+    }
+    .header{
+      height: 700px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &__title{
+        &__name{
+          font-family: 'Amatic SC', cursive;
+          font-size: 60px;
+        }
+        &__sub{
+          font-size: 30px;
+          color: #696969;
+          text-align: center;
+        }
+      }
+    }
+    .about{
+      &__top{
+    
+        &__name{
+        }
+      }
+      &__contents{
+        &__inner{
+          &__photo{
+            img{
+            }
+          }
+          &__profile{
+          }
+        }
+      }
+    }
+  }
+}
+
+@import "compass/css3";
+
+body {
+  background-color: #666;
+  font-size: 12px;
+}
+#contents {
+  position: relative;
+  width: 500px;
+  margin: 50px auto;
+}
+#navigation {
+  position: absolute;
+  width: 100px;
+  background-color: #fff;
+  @include border-radius(4px);
+  overflow: hidden;
+  @include box-shadow(0 2px 5px rgba(#000,.5));
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    display: block;
+    color: #333;
+    padding: 10px;
+    text-decoration: none;
+    &:hover {
+      background-color: #ccc;
+    }
+  }
+}
+#main {
+  width: 100%;
+  margin-left: 110px;
+  padding: 10px 20px;
+  background-color: #fff;
+  @include box-sizing("border-box");
+  @include border-radius(4px);
+  @include box-shadow(0 2px 5px rgba(#000,.5));
+}
