@@ -1,0 +1,17 @@
+#4
+.contact
+  CONTACT
+  .contact__wrapper
+    %ul.contact__wrapper__list
+      %li.contact__wrapper__list__content
+        =link_to "#" do
+          = icon('fas', 'envelope')
+      %li.contact__wrapper__list__content
+        %a{:href => "https://twitter.com/m_nishizawa16"}
+          %i.fab.twitter-square.twitter
+          = icon('fab', 'twitter-square')
+      %li.contact__wrapper__list__content
+        %a{:href => "https://www.facebook.com/masanori.nishizawa.39"}
+          -# = icon('fab', 'facebook-square')
+          %i.fab.fa-facebook-square.facebook
+
