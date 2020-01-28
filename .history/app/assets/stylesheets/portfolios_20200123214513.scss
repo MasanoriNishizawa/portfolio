@@ -1,0 +1,134 @@
+.wrapper{
+  font-family: 'Cormorant Garamond', serif;
+  color: #231815;
+  background-color: #fff;
+  font-size: 18px;
+  box-sizing: border-box;
+  .menubar{
+    background-color: #fff;
+    width: 100vw;
+    position: fixed;
+    &__nav{
+      &__contents{
+        padding: 10px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        &__menu{
+          a{
+            display: block;
+            font-size: 12px;
+            margin: 0 10px;
+            color: #696969;
+          }
+          &:hover{
+            border-radius: 10px;
+            background-color: #f0f8ff;
+          }
+        }
+      }
+    }
+  }
+  .header{
+    background-color: #f0f8ff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__title{
+      &__name{
+        font-family: 'Amatic SC', cursive;
+        font-size: 60px;
+      }
+      &__sub{
+        font-size: 30px;
+        color: #696969;
+        text-align: center;
+      }
+    }
+  }
+  .inner{
+    margin: 50px auto;
+    width: 50%;
+    text-align: center;
+    .about{
+      &__top{
+        font-size: 30px;
+        color: #696969;
+        line-height: 50px;
+      }
+      &__name{
+        }
+      &__contents{
+        &__inner{
+          margin: 0 auto;
+          padding: 20px 0;
+          display: flex;
+          flex-wrap: nowrap;
+          -webkit-box-pack: justify;
+          justify-content: space-between;
+          &__photo{
+            img{
+              border-radius: 50%;
+              height: 120px;
+              width: 120px;
+            }
+          }
+          &__profile{
+            
+          }
+        }
+      }
+    }
+    .works{
+      margin-top: 50px;
+      &__top{
+        font-size: 30px;
+        color: #696969;
+        line-height: 50px;
+      }
+      &__contents{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        &__content{
+          border: solid #696969 1px;
+          border-radius: 50%;
+          height: 180px;
+          width: 180px;
+          margin: 30px auto;
+        }
+      }
+    }
+    .skill{
+      margin-top: 50px;
+      &__top{
+        font-size: 30px;
+        color: #696969;
+        line-height: 50px;
+      &__text{
+
+      }
+      }
+      &__card-wrapper{
+        &__card{
+          &__logo{
+
+          }
+          &__title{
+            border: solid 1px #696969;
+            border-radius: 50%;
+          }
+          &__rate{
+
+          }
+          &__text{
+
+          }
+        }
+      }
+    }
+  }
+}
+
+
